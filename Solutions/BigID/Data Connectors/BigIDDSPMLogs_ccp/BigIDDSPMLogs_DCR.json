@@ -14,7 +14,7 @@
               "type": "dynamic"
             },
             {
-              "name": "affectedObjects",
+              "name": "expand",
               "type": "dynamic"
             },
             {
@@ -42,6 +42,16 @@
           ],
           "transformKql": "source | extend TimeGenerated = now(), EventType = 'catalog', EventVendor = 'BigID', EventProduct = 'DSPM'",
           "outputStream": "Custom-BigIDDSPMCatalog_CL"
+        },
+        {
+          "streams": [
+            "Custom-BigIDDSPMCatalog_CL"
+          ],
+          "destinations": [
+            "clv2ws1"
+          ],
+          "transformKql": "source | extend IngestionTime = now(),  EventType = 'catalog', EventVendor = 'BigID', EventProduct = 'DSPM'",
+          "outputStream": "Custom-BigIDDSPMAssetStore_CL"
         }
       ]
     }
