@@ -18,12 +18,34 @@
             "type": "dynamic"
           },
           {
-            "name": "affectedObjects",
+            "name": "expand",
             "type": "dynamic"
           },
           {
             "name": "datasource",
             "type": "dynamic"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "BigIDDSPMAssetStore_CL",
+    "type": "Microsoft.OperationalInsights/workspaces/tables",
+    "apiVersion": "2021-03-01-privatepreview",
+    "properties": {
+      "schema": {
+        "name": "BigIDDSPMAssetStore_CL",
+        "columns": [
+          {
+            "name": "TimeGenerated",
+            "type": "Datetime",
+            "isDefaultDisplay": true,
+            "description": "The timestamp (UTC) reflecting the time in which the event was generated."
+          },
+          {
+            "name": "AssetID",
+            "type": "string"
           }
         ]
       }

@@ -234,7 +234,7 @@
                         "type": "dynamic"
                       },
                       {
-                        "name": "affectedObjects",
+                        "name": "expand",
                         "type": "dynamic"
                       },
                       {
@@ -260,8 +260,18 @@
                     "destinations": [
                       "clv2ws1"
                     ],
-                    "transformKql": "source | extend TimeGenerated = now(), EventType = 'catalog', EventVendor = 'BigID', EventProduct = 'DSPM'",
+                    "transformKql": "source | extend TimeGenerated = now()",
                     "outputStream": "Custom-BigIDDSPMCatalog_CL"
+                  },
+                  {
+                    "streams": [
+                      "Custom-BigIDDSPMCatalog_CL"
+                    ],
+                    "destinations": [
+                      "clv2ws1"
+                    ],
+                    "transformKql": "source | project IngestionTime = now(), TimeGenerated = now(), AssetID=tostring(expand.fullyQualifiedName)",
+                    "outputStream": "Custom-BigIDDSPMAssetStore_CL"
                   }
                 ]
               }
@@ -287,12 +297,36 @@
                       "type": "dynamic"
                     },
                     {
-                      "name": "affectedObjects",
+                      "name": "expand",
                       "type": "dynamic"
                     },
                     {
                       "name": "datasource",
                       "type": "dynamic"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "BigIDDSPMAssetStore_CL",
+              "apiVersion": "2022-10-01",
+              "type": "Microsoft.OperationalInsights/workspaces/tables",
+              "location": "[parameters('workspace-location')]",
+              "kind": null,
+              "properties": {
+                "schema": {
+                  "name": "BigIDDSPMAssetStore_CL",
+                  "columns": [
+                    {
+                      "name": "TimeGenerated",
+                      "type": "Datetime",
+                      "isDefaultDisplay": true,
+                      "description": "The timestamp (UTC) reflecting the time in which the event was generated."
+                    },
+                    {
+                      "name": "AssetID",
+                      "type": "string"
                     }
                   ]
                 }
@@ -620,7 +654,7 @@
                   },
                   "fetchObjectsDetails": {
                     "shouldJoinNestedData": true,
-                    "joinedDataStepName": "affectedObjects",
+                    "joinedDataStepName": "expand",
                     "request": {
                       "httpMethod": "GET",
                       "apiEndpoint": "[[concat('https://',parameters('bigidFqdn'),'/api/v1/data-catalog/')]",
@@ -641,6 +675,9 @@
                       "format": "json"
                     }
                   }
+                },
+                "extra": {
+                  "nestedTransformName": "/ASI/Microsoft/MvExpandTransformer"
                 }
               }
             }
