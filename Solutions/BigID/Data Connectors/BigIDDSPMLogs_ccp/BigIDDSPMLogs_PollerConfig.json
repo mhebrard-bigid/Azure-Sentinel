@@ -109,7 +109,7 @@
         }
       },
       "extra": {
-        "transformName": "/ASI/Microsoft/MvExpandTransformer"
+        "nestedTransformName": "/ASI/Microsoft/MvExpandTransformer"
       }
     }
   }

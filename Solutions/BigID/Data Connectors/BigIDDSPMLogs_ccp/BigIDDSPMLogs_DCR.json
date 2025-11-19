@@ -50,7 +50,7 @@
           "destinations": [
             "clv2ws1"
           ],
-          "transformKql": "source | extend IngestionTime = now(),  EventType = 'catalog', EventVendor = 'BigID', EventProduct = 'DSPM'",
+          "transformKql": "source | extend TimeGenerated = now(), AssetID=tostring(expand.fullyQualifiedName)",
           "outputStream": "Custom-BigIDDSPMAssetStore_CL"
         }
       ]
