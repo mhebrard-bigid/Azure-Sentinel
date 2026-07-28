@@ -1,0 +1,26 @@
+"Solutions/BigID/Data Connectors/BigIDDSPMLogs_ccp/BigIDDSPMLogs_PollerConfig.json"
+  h_e308d6febca491 98
+Solutions/BigID/Package/mainTemplate.json
+  s_b04240825c940c::t_4758a2bcf717c5 50,54,905,941
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "d02cfd9ffea99eeffcd8614ad6a60dde18d6cd0f",
+  "prompts": {},
+  "humans": {
+    "h_e308d6febca491": {
+      "author": "Marc Hébrard <mhebrard@bigid.com>"
+    }
+  },
+  "sessions": {
+    "s_b04240825c940c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b10d475e-bdf7-4d30-b88a-e6c0c53a175a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Marc Hébrard <mhebrard@bigid.com>"
+    }
+  }
+}
