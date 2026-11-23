@@ -45,6 +45,7 @@ Solutions/BigID/Data/Solution_BigID.json
   s_3a1433fd530cdc::t_03eb6b777f8d40 116-117
 Workbooks/WorkbooksMetadata.json
   s_d85b58eadc0b5a::t_85d0122fb00785 11273,12040-12055
+  s_a8fa08db6cd9f1::t_7465daf42d04b4 12039
 Solutions/BigID/ReleaseNotes.md
   s_4431cdb0e7c255::t_1a79ae499889aa 1
   s_60247e377e5af6::t_d8cdcd9cccfadb 3
@@ -146,6 +147,14 @@ Solutions/BigID/Playbooks/BigID-GetCaseAssetEvidence/azuredeploy.json
         "model": "gemini-4-neon"
       },
       "human_author": null
+    },
+    "s_a8fa08db6cd9f1": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a2092e-1064-704e-9be1-d07d0c2c2d7d",
+        "model": "gemini-4-neon"
+      },
+      "human_author": "Marc Hébrard <mhebrard@bigid.com>"
     },
     "s_b04240825c940c": {
       "agent_id": {
