@@ -1,0 +1,183 @@
+"Solutions/BigID/Data Connectors/BigIDDSPMLogs_ccp/BigIDDSPMLogs_DCR.json"
+  s_60247e377e5af6::t_df099dafa2b115 25-28
+  s_bec5aad8136dad::t_ad849fbec32d05 23-24,29-30
+  s_60247e377e5af6::t_d73ecba1a405e9 33-90,132,137-138
+  s_bec5aad8136dad::t_322914c737ecfb 3,10,122,128
+  s_3a1433fd530cdc::t_6b4647c67b07d4 93-106,129,142,147-148
+  s_bec5aad8136dad::t_6cc8b8e1924ef8 127
+  s_60247e377e5af6::t_6b70b3c8964c3f 31-32,91-92
+  s_bec5aad8136dad::t_1f41057baa3e2a 123-126
+  s_3a1433fd530cdc::t_0dc82b9976d772 130-131
+Solutions/BigID/Package/mainTemplate.json
+  s_3a1433fd530cdc::t_6edefd191a2eff 522,587,676-679,907-922,946,959,964-965,1076-1091,1093-1096,1099,1103-1104,1151-1154,1496-1561,1563-1582,1585-1586
+  s_02db99a0a8b078::t_9c6a40c0d3dbd7 741-746,748-750,752-754,756-758,761-765,767-768,940,943,1215-1221,1223-1225,1227-1229,1231-1233,1236-1240,1342-1345,1411,1413
+  s_4431cdb0e7c255::t_26cfc6b2e75397 31-38,58,61-65,67-84,86,93-119,121-202,204-207,220-222,224-247,249,258-260,264,283-298,300-301,303-304,312-321,329-330,333-335,337,339-341,402-406,409-410,424-453,456,459,461,464-469,471-474,476,478-521,523-586,588-627,654,658,662-663,669,674-675,819,827,939,945,947,971,978,1129,1133,1137-1138,1144,1149-1150,1242-1243,1379,1385,1389-1391,1407,1429,1480,1606,1636-1650
+  s_02db99a0a8b078::t_c141a94dbef96f 760,1235
+  s_bec5aad8136dad::t_728df2a7dca430 944
+  s_4431cdb0e7c255::t_46522b623a934a 305,307-311
+  s_02db99a0a8b078::t_327ba52674225f 747,751,755,759,766,1222,1226,1230,1234,1241,1412
+  s_bec5aad8136dad::t_4d8cb09d50808b 840-841,846,923,1001-1003,1100,1392-1393
+  s_bcaa2f0aad57cf::t_ecd487bd0318bf 306,323-325,328,331,338,343
+  s_60247e377e5af6::t_3abbfeaeddd4f5 344,356-358,381-398
+  s_60247e377e5af6::t_91cf414a55f8d4 261-263,332,401,454,460,462-463,475,842-845,997-999
+  s_13f342b76b8408::t_4b3a5f3bcd2cfc 120,1611
+  s_13f342b76b8408::t_9d79367a4471f9 203,248,276-278,299,302,322,407-408
+  s_b04240825c940c::t_4758a2bcf717c5 1482
+  s_60247e377e5af6::t_a5cdd8891815cc 208-219,223,250-257,265-275,279-282,326-327,336,342,345-355,359-380,399-400,411-423,455,457-458,470,477,847-906,949,954-955,1000,1004,1011,1018,1022,1024,1027-1028,1031-1032,1035-1036,1039-1040,1043-1044,1047-1048,1051-1052,1055-1056,1059-1060,1063-1064,1067-1068,1071-1072,1075
+  s_60247e377e5af6::t_48a2ee5eff7adb 740
+  s_13f342b76b8408::t_e96374f3f547e2 941-942,948,1583-1584
+Solutions/BigID/Package/createUiDefinition.json
+  s_3a1433fd530cdc::t_6edefd191a2eff 9
+  s_4431cdb0e7c255::t_26cfc6b2e75397 77-146
+Solutions/BigID/Data/Solution_BigID.json
+  s_bcaa2f0aad57cf::t_0fe4ada03d9df5 6-8,12-15
+  s_4431cdb0e7c255::t_2ba2aeb1523c72 10
+  s_4431cdb0e7c255::t_46522b623a934a 23
+  s_60247e377e5af6::t_2015c190f63274 5
+  s_60247e377e5af6::t_e21e191920bd0f 11
+"Solutions/BigID/Data Connectors/BigIDDSPMLogs_ccp/BigIDDSPMLogs_PollerConfig.json"
+  s_02db99a0a8b078::t_cec35f4f07b4a2 36
+  s_02db99a0a8b078::t_7d837a33771ec2 35,37
+  s_bec5aad8136dad::t_6cb9bdd7932835 16-17
+  h_e308d6febca491 104
+  s_bec5aad8136dad::t_78fb6cf7c108f2 3,9,13-15,31,53,102
+  s_3a1433fd530cdc::t_d5506bf34bc71a 118-158,160-206
+  s_3a1433fd530cdc::t_03eb6b777f8d40 116-117
+Workbooks/WorkbooksMetadata.json
+  s_d85b58eadc0b5a::t_85d0122fb00785 11273,12040-12055
+Solutions/BigID/ReleaseNotes.md
+  s_4431cdb0e7c255::t_1a79ae499889aa 1
+  s_60247e377e5af6::t_d8cdcd9cccfadb 3
+Solutions/BigID/Workbooks/BigIDDSPMOverview.json
+  s_60247e377e5af6::t_95fa7423d5efa0 44-45,86,106-109,137-139,154-156,171-173,202-204,218-220,235-237,292-295,344-346,357-359,424-426
+  s_60247e377e5af6::t_12e3a1d04aeff6 199,215,290,296,305,309,311-314
+  s_60247e377e5af6::t_9a92547fc30b87 43,46
+  s_60247e377e5af6::t_d93dc31f98f18c 10-28,48
+  s_13f342b76b8408::t_183c9624d895a4 362-374,522
+  s_d85b58eadc0b5a::t_15fe57d53954de 1-9,29-36,52-85,87-105,110-136,140-153,157-170,174-198,200-201,205-214,216-217,221-231,233,238-239,267-289,291,297-304,306-308,310,315-320,416-422,427-432,438-439,579-592
+  s_3a1433fd530cdc::t_aadb004ddce22a 232,234,240-266,395-402,440-487
+  s_60247e377e5af6::t_84ba9a25638cbe 37-42,47,49-51,321-343,347-356,360-361,375-394,403-415,423,433-437,488-506,544-548,550,555-556,560-578
+  s_60247e377e5af6::t_530358e216c6f3 507-521,523-543,549,551-554,557-559
+"Solutions/BigID/Data Connectors/BigIDDSPMLogs_ccp/BigIDDSPMLogs_connectorDefinition.json"
+  s_02db99a0a8b078::t_ff60d365f207ab 115
+  s_d85b58eadc0b5a::t_ca2f261bfdb019 4,9,13,17-18,24,29-30
+  s_3a1433fd530cdc::t_3b56eaf3caba2f 31-34
+  s_02db99a0a8b078::t_590cda133e2c19 95
+  s_02db99a0a8b078::t_5b3af916db79f3 96-101,103-105,107-109,111-113,116-120,122-123
+  s_02db99a0a8b078::t_e85c020d2e479f 102,106,110,114,121
+Solutions/BigID/Package/testParameters.json
+  s_4431cdb0e7c255::t_26cfc6b2e75397 24-31
+Solutions/BigID/Parsers/BigIDDSPMCases.yaml
+  s_3a1433fd530cdc::t_7e8a1efaa7befd 10-16,24-25,30-34
+  s_60247e377e5af6::t_bb9a1a5824e0f8 21-23,29,162
+  s_bec5aad8136dad::t_8faa28ca970daa 27-28
+  s_bec5aad8136dad::t_b9202780d6a37a 1-9,17,35-109,113,115-161,163-168,173,175
+  s_bec5aad8136dad::t_dd68160f1c769b 26,110-112,114,169-172,174
+  s_bec5aad8136dad::t_7f012419188dd8 18-20
+Solutions/BigID/Playbooks/BigID-GetCaseAssetEvidence/azuredeploy.json
+  s_60247e377e5af6::t_c4a63bb6487ca1 5,11,14-15,36,106-108,178,249
+  s_4431cdb0e7c255::t_73dbfb5c796beb 7,10,12-13,16-30,32-35,37,39-51,53-56,69,73-81,109,128,134-137,140-144,146-147,149-167,169-171,174-177,179-181,183-187,189,250
+  s_4431cdb0e7c255::t_35f3c1a039bea4 251-253
+  s_bcaa2f0aad57cf::t_8135fec9f0bfe3 1,85-92,104,129-131,254-255,273-276
+  s_4431cdb0e7c255::t_b33b11072ec30b 82-84
+  s_4431cdb0e7c255::t_1397e65a088bd7 94,103,105
+  s_4431cdb0e7c255::t_d472f1dcfcbac6 138-139
+  s_4431cdb0e7c255::t_698782d9ef0eb3 2-4
+  s_60247e377e5af6::t_a2e2d8836cb53b 132
+  s_60247e377e5af6::t_70c74c4cf528cf 190,202-204,227-229,231-246
+  s_60247e377e5af6::t_c78aa3dca999cf 6,8-9,31,38,57-68,70-72,95-102,110-120,124-127,133,172-173,182,188,191-201,205-226,230,247-248,260-272
+  s_4431cdb0e7c255::t_d4cb5d96020cbc 258-259
+  s_13f342b76b8408::t_ef8f2c8c8b927e 52,93,121-123,145,148,168,256-257
+"Solutions/BigID/Data Connectors/BigIDDSPMLogs_ccp/BigIDDSPMCatalog_Table.json"
+  s_3a1433fd530cdc::t_e5c0b6a0ac489d 109-117,119-122,125-126,129-130
+  s_60247e377e5af6::t_beb11526966ab5 29-32
+  s_bec5aad8136dad::t_8d8184be60b96e 3,8
+  s_bec5aad8136dad::t_61d4b699cad612 27-28,33-34
+  s_60247e377e5af6::t_d53fc25505048a 41,46,50,52,55-56,59-60,63-64,67-68,71-72,75-76,79-80,83-84,87-88,91-92,95-96,99-100,103-104
+  s_3a1433fd530cdc::t_533180c70b7127 105-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "de8bb74910e573e29549561a5e518db81f912fa4",
+  "prompts": {},
+  "humans": {
+    "h_e308d6febca491": {
+      "author": "Marc Hébrard <mhebrard@bigid.com>"
+    }
+  },
+  "sessions": {
+    "s_02db99a0a8b078": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1f36a-b4c0-73ec-a5b2-eaa263517798",
+        "model": "gemini-4-argon"
+      },
+      "human_author": null
+    },
+    "s_13f342b76b8408": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1f448-b70c-737a-9346-1e6a2b8d42b8",
+        "model": "gemini-4-argon"
+      },
+      "human_author": null
+    },
+    "s_3a1433fd530cdc": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1f9f2-ef88-76e1-a09d-2104a8bf44c0",
+        "model": "gemini-4-neon"
+      },
+      "human_author": null
+    },
+    "s_4431cdb0e7c255": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1ea1f-cce8-75dc-8765-7121e96e29f2",
+        "model": "gemini-4-argon"
+      },
+      "human_author": "Marc Hébrard <mhebrard@bigid.com>"
+    },
+    "s_60247e377e5af6": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1f81f-4d94-7681-b483-e8e1dc8c8c9f",
+        "model": "gemini-4-neon"
+      },
+      "human_author": null
+    },
+    "s_b04240825c940c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b10d475e-bdf7-4d30-b88a-e6c0c53a175a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Marc Hébrard <mhebrard@bigid.com>"
+    },
+    "s_bcaa2f0aad57cf": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1ef89-5f37-75e7-83e9-ae71c66581e3",
+        "model": "gemini-4-argon"
+      },
+      "human_author": "Marc Hébrard <mhebrard@bigid.com>"
+    },
+    "s_bec5aad8136dad": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1efd0-a1fe-75f8-81cd-0bf1fdcebb4c",
+        "model": "gemini-4-argon"
+      },
+      "human_author": null
+    },
+    "s_d85b58eadc0b5a": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1b0f2-b5f7-70ca-8317-10f768b4cdc4",
+        "model": "unknown"
+      },
+      "human_author": "Marc Hébrard <mhebrard@bigid.com>"
+    }
+  }
+}
