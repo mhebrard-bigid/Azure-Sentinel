@@ -2,6 +2,7 @@ Workbooks/WorkbooksMetadata.json
   s_a8fa08db6cd9f1::t_7465daf42d04b4 12076
   s_d85b58eadc0b5a::t_85d0122fb00785 12138-12147,12152-12156
   s_a8fa08db6cd9f1::t_e8ea8d44e9b17e 12148-12151
+  s_2e83a9cdfa8ac6::t_16942ac6643a6f 12137
 .script/tests/KqlvalidationsTests/CustomTables/BigIDDSPMEvidence_CL.json
   s_a8fa08db6cd9f1::t_559c6d93ca6a52 1-73
 Solutions/BigID/Package/createUiDefinition.json
